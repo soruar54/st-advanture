@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+ body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 97%;
+    margin: auto;
+}
+
+header {
+    background-image: url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.39);
+    background-blend-mode: multiply;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+}
+
+.logo h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 20px 0px;
+    color: white;
+    line-height: 1;
+}
+
+.logo h3 span {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+nav {
+
+}
+
+nav ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.event-main {
+}
+
+.event-main h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.event-main span {
+    display: block;
+    height: 5px;
+    width: 200px;
+    background-color: red;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.banner {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.banner h4 {
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.banner span {
+    display: inline-block;
+    height: 5px;
+    width: 120px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.banner h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.banner button {
+    padding: 12px 30px;
+    background: rgba(255, 0, 0, 0.84);
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    border: none;
+}
+/* Upcomming Event */
+.event {
+    display: block;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.event-item {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.event-item img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: gray 10px 10px 2px;
+}
+
+.event-item h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+.event-item p {
+}
+
+.event-item a {
+    text-decoration: none;
+    color: red;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+/* Explore section */
+.explore-world {
+    background-image: url("../images/section-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.404);
+    background-attachment: fixed;
+    padding: 170px 0px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.explore-item {
+    width: 100%;
+    color: white;
+    padding-right: 20px;
+}
+.explore-item.hide{
+    width: 0;
+}
+
+.explore-item h3 {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.explore-item span {
+    display: block;
+    height: 5px;
+    width: 150px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.explore-item p {
+    margin: 30px 0px;
+}
+
+.explore-item a {
+    text-decoration: none;
+    color: white;
+}
+/* UPCOMING TOURS & DESTINATION */
+.tour-main {
+    display: block;
+    margin: 80px 0;
+}
+
+.tour-item {
+    padding: 10px;
+}
+
+.tour-item h4 {
+    font-size: 40px;
+    margin:0 0 10px 0;
+}
+
+.tour-item span {
+    display: block;
+    height: 5px;
+    width: 150px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.tour-item p {
+    margin: 40px 0px;
+}
+
+.tour-item button {
+    padding: 15px 30px;
+    border: 0px;
+    background-color: red;
+    border-radius: 50px;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.tour-item img {
+}
+
+.img1 {
+    object-fit: cover;
+    height: 230px;
+    width: 850px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+}
+
+.img2 {
+    object-fit: cover;
+    height: 370px;
+    width: 850px;
+    margin: 0 0 20px 0;   
+    border-radius: 5px;
+}
+/* Footer section */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+.footer-main{
+
+}
+.footer-main h5{
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-main a{
+    color: white;
+}
+.fa-brands{
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 25px;
+}
